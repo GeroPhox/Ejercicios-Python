@@ -27,8 +27,8 @@ size = image.size
 width, height = size
 
 # Otra manera de desempaquetar la altura y el ancho de la imagen
-width = size[0]
-height = size[1]
+#width = size[0]
+#height = size[1]
 
 # Variable que nos da el minimo comun multiplo
 mcd = math.gcd(width, height)
